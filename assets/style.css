@@ -156,33 +156,50 @@ body{
   margin: 0 0 20px;
 }
 
+/* Start Menu Section */
 .menu-section{
-  display: flex;
+  padding: 0 300px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  /* display: flex;
   max-width: 1000px;
   width: 800px;
-  height: 750px;
+  height: 800px;
   padding: 0px 300px;
   padding-top: 30px;
-  padding-bottom: 5px;
-  margin: auto;
+  padding-bottom: 10px;
+  margin: auto; */
+}
+
+.menu-section .menuFile{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  width: 90%;
+  margin: 0 auto;
+}
+
+
+.menu-section .wraps .sides-div{
+  max-width: 1000px;
 }
 
 .menu-section .wraps{
-  display: flex;
-  flex-direction: column;
-  width: 50%;
-  float: left;
+  display: inline-block;
+  /* flex-direction: column; */
+  width: 40%;
+  /* float: left; */
 }
 
 .menu-section .sides-div{
-  display: flex;
-  flex-direction: column;
-  width: 50%;
+  display: inline-block;
+  /* flex-direction: column; */
+  width: 40%;
 }
 
 .menu-section h2{
-  display: flex;
-  justify-content: center;
+  text-align: center;
   padding: 10px;
   margin: 0 auto;
   color: Brown;
@@ -209,17 +226,19 @@ body{
   color: Black;
   font-size: 20.8px;
 }
+/* End Menu Section */
+
 
 .FibLogo{
   display: none;
 }
 
-.menu-section{
+/* .menu-section{
   display: none;
-}
+} */
 
 .mathfav-section{
-  max-width: 1000px;
+  
   display: block;
   justify-content: center;
   margin: 20px 0px 20px 0px;
@@ -249,27 +268,24 @@ body{
   justify-content: space-between;
   align-items: center;
   object-fit: contain;
-  max-width: 100%;
-  width: 1000px;
-  padding: 5px 0px 5px 0px;
 }
 
 .flex-container .dish-1{
   display: flex;
-  padding-right: 8px;
-  padding-left: 8x;
+  /* padding-right: 8px;
+  padding-left: 8x; */
 }
 
 .flex-container .dish-2{
   display: flex;
-  padding-right: 8px;
-  padding-left: 8px;
+  /* padding-right: 8px;
+  padding-left: 8px; */
 }
 
 .flex-container .dish-3{
   display: flex;
-  padding-right: 8px;
-  padding-left: 8px;
+  /* padding-right: 8px;
+  padding-left: 8px; */
 }
 
 .locationhours-section{
