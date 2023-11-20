@@ -157,7 +157,7 @@ body{
 }
 
 .menu-section{
-  display: inline-flex;
+  display: flex;
   max-width: 1000px;
   width: 800px;
   height: 750px;
@@ -168,14 +168,14 @@ body{
 }
 
 .menu-section .wraps{
-  display: inline-flex;
+  display: flex;
   flex-direction: column;
   width: 50%;
   float: left;
 }
 
 .menu-section .sides-div{
-  display: inline-flex;
+  display: flex;
   flex-direction: column;
   width: 50%;
 }
